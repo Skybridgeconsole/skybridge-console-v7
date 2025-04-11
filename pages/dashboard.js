@@ -28,7 +28,7 @@ export default function Dashboard() {
       onMouseOver={(e) => {e.currentTarget.style.transform = 'scale(1.05)'; e.currentTarget.style.boxShadow = '0 30px 80px rgba(255, 215, 0, 0.2)';}}
       onMouseOut={(e) => {e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.boxShadow = '0 20px 60px rgba(255, 215, 0, 0.1)';}}
       >
-        <img src="/brain-icon.png" alt="SkySync Brain Icon" style={{ width: '90px', marginBottom: '1rem' }} />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Brain_icon.png" alt="SkySync Brain Icon" style={{ width: '90px', marginBottom: '1rem' }} />
         <h2 style={{ color: 'white', fontWeight: 'bold', fontSize: '1.7rem', letterSpacing: '1px' }}>SkySync Brain</h2>
         <p style={{ color: '#aaa', fontSize: '0.85rem' }}>AI Powered Command Core</p>
       </div>
