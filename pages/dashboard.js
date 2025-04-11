@@ -26,8 +26,8 @@ export default function Dashboard() {
       onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
       onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
       >
-        <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🧠</div>
-        <h2 style={{ color: '#0A2540' }}>SkySync Brain</h2>
+        <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🚀</div>
+        <h2 style={{ color: '#0A2540', fontWeight: 'bold', fontFamily: 'sans-serif' }}>SkySync Brain</h2>
         <p style={{ color: '#555' }}>The Power Core of Skybridge</p>
       </div>
     </div>
