@@ -5,15 +5,17 @@ export default function Dashboard() {
       justifyContent: 'center',
       alignItems: 'center',
       height: '100vh',
-      backgroundColor: '#f4f4f4',
+      backgroundColor: '#0A0A0A',
       fontFamily: 'sans-serif'
     }}>
       <div style={{
-        width: '320px',
-        height: '320px',
-        background: 'white',
+        width: '340px',
+        height: '340px',
+        background: 'rgba(255, 255, 255, 0.05)',
         borderRadius: '24px',
-        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)',
+        backdropFilter: 'blur(10px)',
+        boxShadow: '0 20px 60px rgba(255, 215, 0, 0.1)',
+        border: '1px solid rgba(255, 255, 255, 0.1)',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -23,12 +25,12 @@ export default function Dashboard() {
         transition: 'transform 0.3s ease, box-shadow 0.3s ease',
         cursor: 'pointer'
       }}
-      onMouseOver={(e) => {e.currentTarget.style.transform = 'scale(1.05)'; e.currentTarget.style.boxShadow = '0 12px 48px rgba(0, 0, 0, 0.15)';}}
-      onMouseOut={(e) => {e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.1)';}}
+      onMouseOver={(e) => {e.currentTarget.style.transform = 'scale(1.05)'; e.currentTarget.style.boxShadow = '0 30px 80px rgba(255, 215, 0, 0.2)';}}
+      onMouseOut={(e) => {e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.boxShadow = '0 20px 60px rgba(255, 215, 0, 0.1)';}}
       >
-        <img src="/brain-icon.png" alt="SkySync Brain Icon" style={{ width: '80px', marginBottom: '1rem' }} />
-        <h2 style={{ color: '#0A2540', fontWeight: 'bold', fontSize: '1.5rem' }}>SkySync Brain</h2>
-        <p style={{ color: '#555', fontSize: '0.9rem' }}>AI Powered Intelligence Core</p>
+        <img src="/brain-icon.png" alt="SkySync Brain Icon" style={{ width: '90px', marginBottom: '1rem' }} />
+        <h2 style={{ color: 'white', fontWeight: 'bold', fontSize: '1.7rem', letterSpacing: '1px' }}>SkySync Brain</h2>
+        <p style={{ color: '#aaa', fontSize: '0.85rem' }}>AI Powered Command Core</p>
       </div>
     </div>
   );
