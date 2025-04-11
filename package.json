@@ -1,5 +1,5 @@
 {
-  "name": "skybridge-console-v7",
+  "name": "skybridge-console-v7-final",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
